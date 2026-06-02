@@ -238,6 +238,11 @@ The application is hosted on Render's free tier. The first request after a perio
 
 This project demonstrates the development of an AI Chatbot using Flask with features such as authentication, voice input, dark mode, responsive UI, and dynamic chatbot interaction. It provides a practical implementation of web development concepts and basic AI chatbot functionality.
 
+--- 
+## Author
+
+Chebolu Gayatri
+
 ---
 
 ## Developed For
