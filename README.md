@@ -142,6 +142,58 @@ Password:
 ```
 
 ---
+## Deployment
+
+This project is deployed on Render and can be accessed online using the following link:
+
+**Live Application:**
+
+https://ai-chatbot-web-application-2mm6.onrender.com/
+
+### Deployment Platform
+
+* Hosting Service: Render
+* Backend: Flask (Python)
+* Frontend: HTML, CSS, JavaScript
+
+### Steps Used for Deployment on Render
+
+1. Push the project code to a GitHub repository.
+
+2. Create a Render account and connect the GitHub repository.
+
+3. Select **New Web Service** in Render.
+
+4. Configure the deployment settings:
+
+   **Build Command**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   **Start Command**
+
+   ```bash
+   gunicorn app:app
+   ```
+
+5. Deploy the application.
+
+6. Render automatically builds and hosts the Flask application.
+
+7. After deployment, the application becomes available through the public URL provided by Render.
+
+### Live Demo
+
+Users can directly access the chatbot without local installation:
+
+https://ai-chatbot-web-application-2mm6.onrender.com/
+
+### Note
+
+The application is hosted on Render's free tier. The first request after a period of inactivity may take a few seconds while the service wakes up.
+---
 
 ## How to Use
 
