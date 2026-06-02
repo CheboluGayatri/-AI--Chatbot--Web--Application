@@ -1,0 +1,36 @@
+{
+    "hello": "Hello! How can I help you today?",
+
+    "hi": "Hi! Welcome to AI Chatbot.",
+ 
+    "artificial intelligence": "Artificial Intelligence is the simulation of human intelligence by machines.",
+
+    "ai": "Artificial Intelligence enables machines to perform tasks that normally require human intelligence.",
+
+    "ml": "Machine Learning is a subset of AI that allows machines to learn from data and improve their performance over time.",
+
+    "python": "Python is a powerful and easy-to-learn programming language widely used in web development, AI, and data science.",
+
+    "flask": "Flask is a lightweight Python framework used to build web applications and APIs.",
+
+    "chatbot": "A chatbot is a software application that communicates with users through text or voice messages.",
+
+    "html": "HTML stands for HyperText Markup Language and is used to create web pages.",
+
+    "css": "CSS stands for Cascading Style Sheets and is used to style web pages.",
+
+    "javascript": "JavaScript is a programming language used to make web pages interactive.",
+
+    "database": "A database is an organized collection of data that can be stored and accessed electronically.",
+
+    "mysql": "MySQL is a popular relational database management system.",
+
+    "thank you": "You're welcome. Happy to help.",
+
+    "how are you": "I am doing great. Thank you for asking.",
+
+    "who are you": "I am an AI Chatbot developed using Flask and Python.",
+
+    "bye": "Goodbye. Have a great day."
+
+}

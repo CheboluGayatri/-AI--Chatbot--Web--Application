@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+/* LOGIN PAGE */
+
+.login-page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f4f4f4;
+}
+
+.login-container{
+
+    width:350px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 20px rgba(0,0,0,.2);
+
+    text-align:center;
+}
+
+.login-container h1{
+
+    margin-bottom:20px;
+}
+
+.login-container input{
+
+    width:100%;
+
+    padding:12px;
+
+    margin:10px 0;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+}
+
+.login-container button{
+
+    width:100%;
+
+    padding:12px;
+
+    background:#4f46e5;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+}
+
+/* CHAT PAGE */
+
+body{
+
+    background:#f4f4f4;
+}
+
+.chat-container{
+
+    width:95%;
+    max-width:600px;
+
+    height:90vh;
+
+    margin:20px auto;
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 0 20px rgba(0,0,0,.2);
+
+    display:flex;
+    flex-direction:column;
+}
+
+.header{
+
+    background:#4f46e5;
+
+    color:white;
+
+    padding:15px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+#chat-box{
+
+    flex:1;
+
+    overflow-y:auto;
+
+    padding:15px;
+
+    background:#f8f8f8;
+}
+
+.user-message{
+
+    background:#4f46e5;
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:15px;
+
+    width:fit-content;
+
+    max-width:80%;
+
+    margin:10px 0 10px auto;
+}
+
+.bot-message{
+
+    background:white;
+
+    padding:12px;
+
+    border-radius:15px;
+
+    border:1px solid #ddd;
+
+    width:fit-content;
+
+    max-width:80%;
+
+    margin:10px 0;
+}
+
+.typing{
+
+    color:gray;
+
+    margin:10px;
+}
+
+.input-area{
+
+    display:flex;
+
+    padding:10px;
+
+    border-top:1px solid #ddd;
+}
+
+.input-area input{
+
+    flex:1;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+}
+
+.input-area button{
+
+    padding:12px;
+
+    margin-left:5px;
+
+    cursor:pointer;
+}
+
+/* DARK MODE */
+
+.dark{
+
+    background:#121212;
+}
+
+.dark .chat-container{
+
+    background:#1f1f1f;
+}
+
+.dark #chat-box{
+
+    background:#2a2a2a;
+}
+
+.dark .bot-message{
+
+    background:#333;
+
+    color:white;
+
+    border:none;
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+.chat-container{
+
+    width:100%;
+
+    height:100vh;
+
+    margin:0;
+
+    border-radius:0;
+}
+
+}
